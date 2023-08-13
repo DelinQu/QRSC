@@ -1,4 +1,4 @@
-# Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction (Coming Soon)
+# Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction (under construction)
 
 ### [Paper](https://arxiv.org/pdf/2303.18125.pdf) | [Project Page](https://delinqu.github.io/QRSC) | [Video](https://hengyiwang.github.io/projects/Co-SLAM/videos/presentation.mp4)
 
@@ -76,7 +76,7 @@ data_aug:
 ```
 
 ## Evaluation
-The [script](run_test.sh) provides evaluation methods of all the three datasets. Before run the following code, please [download the checkpoints](https://drive.google.com/drive/folders/16cDsCFQB0TmOYwIzGYwH2_o4E2c-T7Zt?usp=sharing) to the [checkpoint dir](checkpoint).
+The [script](run_test.sh) provides evaluation methods of all the three datasets. Before run the following code, please [download the checkpoints]() to the [checkpoint dir](checkpoint).
 
 ```bash
 bash run_test.sh

@@ -1,0 +1,12 @@
+# @package _global_
+status: train
+
+trainer:
+  epochs: 180
+  logging_step: 200
+
+  monitor: min total/valid
+  save_topk: 2
+  early_stop: 25
+
+  tensorboard: true

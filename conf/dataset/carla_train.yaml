@@ -1,0 +1,15 @@
+# @package data_loader
+_target_: src.dataset.Carla.get_data_loaders
+train_dir: /mnt/petrelfs/share_data/qudelin/RS/Carla/train
+val_dir: /mnt/petrelfs/share_data/qudelin/RS/Carla/val
+test_dir: /mnt/petrelfs/share_data/qudelin/RS/Carla/test
+batch_size: ${batch_size}
+seq_len: ${arch.n_inputs}
+load_mask: true
+training: true
+shuffle: true
+num_workers: ${n_cpu}
+load_middle_gs: true
+
+data_aug: 
+  _target_: src.dataset.transforms.ToTensor

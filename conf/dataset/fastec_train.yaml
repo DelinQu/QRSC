@@ -1,0 +1,14 @@
+# @package data_loader
+_target_: src.dataset.Fastec.get_data_loaders
+train_dir: /mnt/petrelfs/share_data/qudelin/RS/Fastec/train
+val_dir: /mnt/petrelfs/share_data/qudelin/RS/Fastec/val
+test_dir: /mnt/petrelfs/share_data/qudelin/RS/Fastec/test
+batch_size: ${batch_size}
+training: true
+seq_len: ${arch.n_inputs}
+shuffle: true
+num_workers: ${n_cpu}
+load_middle_gs: true
+
+data_aug: 
+  _target_: src.dataset.transforms.ToTensor

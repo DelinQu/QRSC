@@ -1,0 +1,6 @@
+# @package _global_
+loss:
+  _target_: src.model.loss.Loss
+  losses: ['L1_Charbonnier_loss_color', 'Perceptual', 'torch.nn.MSELoss']
+  ratios: [1, 1, 1]
+  auto: True

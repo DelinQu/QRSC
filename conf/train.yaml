@@ -1,0 +1,20 @@
+resume:
+save_dir: models/
+log_dir: ${name}/
+
+metrics:
+  - _target_: src.model.metric.psnr
+  - _target_: src.model.metric.ssim
+  - _target_: src.model.metric.lpips
+  - _target_: src.model.metric.psnr_mask
+
+defaults:
+  - _self_
+  - hparams: lr2e4_step25
+  - dataset: carla_train
+  - loss: lc_lp
+  - model: vrst_baseline
+  - optimizer: adam
+  - status: train
+  - working_dir: job_timestamp
+  - override hydra/job_logging : custom

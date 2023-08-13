@@ -1,0 +1,7 @@
+# @package _global_
+status: test
+
+tester:
+  logging_step: 5
+  monitor: min total/valid
+  tensorboard: true

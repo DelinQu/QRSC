@@ -1,0 +1,13 @@
+# @package data_loader
+_target_: src.dataset.BSRSC.get_data_loaders
+train_dir: /mnt/petrelfs/share_data/qudelin/RS/ACC/train
+val_dir: /mnt/petrelfs/share_data/qudelin/RS/ACC/val
+test_dir: /mnt/petrelfs/share_data/qudelin/RS/ACC/test
+batch_size: 1
+seq_len: ${arch.n_inputs}
+training: false
+shuffle: false
+num_workers: 4
+
+data_aug: 
+  _target_: src.dataset.transforms.ToTensor

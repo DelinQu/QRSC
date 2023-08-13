@@ -1,0 +1,20 @@
+# @package _global_
+n_gpu: 8                        # gpu_numbers
+n_cpu: ${n_gpu}                 # num_workers
+
+batch_size: 4
+learning_rate: 0.0002
+weight_decay: 0.
+
+# TODO: torch.optim.lr_scheduler.StepLR
+scheduler_step_size: 25
+scheduler_gamma: 0.1
+
+# TODO: torch.optim.lr_scheduler.CosineAnnealingLR
+T_max: 25
+eta_min: 0.
+
+# TODO: the readout ratio and tau time warping to. 
+gamma: 0.99
+tau: 0
+delta: 1.0

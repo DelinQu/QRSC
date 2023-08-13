@@ -1,0 +1,5 @@
+# @package hydra
+run:
+  dir: ./
+job:
+  chdir: false

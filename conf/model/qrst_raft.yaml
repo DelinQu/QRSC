@@ -1,0 +1,12 @@
+# @package _global_
+name: QRST_RAFT
+
+arch:
+  _target_: src.model.model.QRST
+  n_inputs: 5
+  joinType: concat
+  ks: 5
+  dilation: 1
+  nf: [192, 128, 64, 32]
+  config_file: ~/.cache/mim/raft_8x2_100k_mixed_368x768.py
+  checkpoint_file: ~/.cache/mim/raft_8x2_100k_mixed_368x768.pth

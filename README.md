@@ -1,6 +1,6 @@
 # Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction (under construction)
 
-### [Paper](https://arxiv.org/pdf/2303.18125.pdf) | [Project Page](https://delinqu.github.io/QRSC) | [Video](https://hengyiwang.github.io/projects/Co-SLAM/videos/presentation.mp4)
+### [Paper](https://arxiv.org/pdf/2303.18125.pdf) | [Project Page](https://delinqu.github.io/QRSC) | [Video](https://youtu.be/Or-yvKHUrZ0)
 
 > Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction <br />
 > [Delin Qu](https://hengyiwang.github.io/)<br />
@@ -15,11 +15,10 @@
 
 This repository contains the code for the paper Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction, a geometry-based quadratic rolling shutter motion solver that precisely estimates the high-order correction field of individual pixels and a self-alignment 3D video architecture $RSA^2$-Net for high-quality frame aggregation and synthesis against extreme scene occlusion.
 
-
 ## Update
-
 - [x] Code for QRSC [2023-8-03]
-- [] Project Pages for Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction. 
+- [x] Project Pages for Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction [2023-8-16]
+- [x] Youtube video for Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction [2023-8-16]
 
 ## Installation
 

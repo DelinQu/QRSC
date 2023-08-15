@@ -98,9 +98,10 @@
       This paper addresses the problem of rolling shutter correction in complex nonlinear and dynamic scenes with
       extreme occlusion.
     </p>
-    <video id="main-video" muted autoplay controls playsinline loop>
-      <source id="mp4" src="https://www.youtube.com/watch?v=Or-yvKHUrZ0" type="video/mp4">
-    </video>
+    <!-- <video id="main-video" muted autoplay controls playsinline loop>
+      <source id="mp4" src="https://www.youtube.com/embed/Or-yvKHUrZ0" type="video/mp4">
+    </video> -->
+    <iframe id="main-video" height="404.9" src="https://www.youtube.com/embed/Or-yvKHUrZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     <div id="content">
       <h2 class="section-header">Overview</h2>
@@ -151,31 +152,40 @@
       <h2 class="section-header">Overview</h2>
       <div class="img-container">
         <div class="paragraph">
-          Overview of the proposed method. We aim to estimate precise correction fields in nonlinear motion with the QRS motion solver and synthesize high-quality frames against dynamic scenes with extreme occlusion by a self-alignment 3D video architecture RSA2-Net.
+          Overview of the proposed method. We aim to estimate precise correction fields in nonlinear motion with the QRS
+          motion solver and synthesize high-quality frames against dynamic scenes with extreme occlusion by a
+          self-alignment 3D video architecture RSA2-Net.
         </div>
         <img class="wide-img" src="static/images/pipeline.png" alt="motivation">
-        <div class="paragraph"> 
-          The object moves at variable velocity and has a complex curvilinear trajectory. Note that the object has only 2 Dof in the image plane, and the time interval between frames is very small. Thus, we use a quadratic motion model to formalize the curvilinear trajectory of the pixel.
+        <div class="paragraph">
+          The object moves at variable velocity and has a complex curvilinear trajectory. Note that the object has only
+          2 Dof in the image plane, and the time interval between frames is very small. Thus, we use a quadratic motion
+          model to formalize the curvilinear trajectory of the pixel.
         </div>
         <img class="wide-img" src="static/images/solver.png" alt="motivation">
       </div>
 
       <h2 class="section-header">Quantitative Analysis and Generalization Ability</h2>
       <div class="img-container">
-        <div class="paragraph">          
-          The results reported in table show that the proposed method outperforms the other eight RSC methods by large margins on Carla-RS, Fascte-RS, BS-RSC and ACC datasets. These superior performances significantly demonstrate the effectiveness of our model on highly dynamic scenes with occlusion and real-world curvilinear movements. We performed cross-tests on three datasets the proposed method demonstrates strong generalization performance, benefiting from the QRS motion solver.
+        <div class="paragraph">
+          The results reported in table show that the proposed method outperforms the other eight RSC methods by large
+          margins on Carla-RS, Fascte-RS, BS-RSC and ACC datasets. These superior performances significantly demonstrate
+          the effectiveness of our model on highly dynamic scenes with occlusion and real-world curvilinear movements.
+          We performed cross-tests on three datasets the proposed method demonstrates strong generalization performance,
+          benefiting from the QRS motion solver.
         </div>
         <img class="wide-img" src="static/images/quantitative.png" alt="motivation">
       </div>
 
       <h2 class="section-header">Visual Comparisons</h2>
       <div class="img-container">
-        <div class="paragraph">          
-          Visual comparisons on Carla-RS, Fastec-RS, BS-RSC and ACC datasets. The proposed method can effectively correct the rolling shutter distortion in complex nonlinear and dynamic scenes with extreme occlusion.
+        <div class="paragraph">
+          Visual comparisons on Carla-RS, Fastec-RS, BS-RSC and ACC datasets. The proposed method can effectively
+          correct the rolling shutter distortion in complex nonlinear and dynamic scenes with extreme occlusion.
         </div>
         <img class="wide-img" src="static/images/visual1.png" alt="motivation">
         <img class="wide-img" src="static/images/visual2.png" alt="motivation">
-        <div class="paragraph">          
+        <div class="paragraph">
         </div>
       </div>
 

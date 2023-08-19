@@ -3,7 +3,7 @@
 ### [Paper](https://arxiv.org/pdf/2303.18125.pdf) | [Project Page](https://delinqu.github.io/QRSC) | [Video](https://youtu.be/Or-yvKHUrZ0)
 
 > Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction <br />
-> [Delin Qu](https://hengyiwang.github.io/)<br />
+> [Delin Qu*](https://delinqu.github.io/), Yizhen Lao*, Zhigang Wang*, Dong Wang, Bin Zhao†, Xuelong Li†,
 > ICCV 2023
 
 <!-- <p align="center">

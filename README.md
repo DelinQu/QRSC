@@ -91,8 +91,7 @@ bash run_test.sh
 
 We adapt codes from some awesome repositories, including [BS-RSC](https://github.com/ljzycmd/BSRSC), [Video-Frame-Interpolation-Transformer](https://github.com/zhshi0816/Video-Frame-Interpolation-Transformer) and [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet). Thanks for making the code available.
 
-The research presented here has been supported by ...
-
+This work is supported by the Shanghai AI Laboratory, National Key R&D Program of China (2022ZD0160100) and the National Natural Science Foundation of China (62106183 and 62102145).
 
 ## Citation
 

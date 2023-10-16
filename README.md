@@ -98,10 +98,12 @@ This work is supported by the Shanghai AI Laboratory, National Key R&D Program o
 If you find our code or paper useful for your research, please consider citing:
 
 ```
-@inproceedings{qu2023towards,
-        title={Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction},
-        author={Delin Qu, Yizhen Lao, Zhigang Wang, Dong Wang, Bin Zhao, Xuelong Li},
-        booktitle={ICCV},
-        year={2023}
+@InProceedings{Qu_2023_ICCV,
+    author    = {Qu, Delin and Lao, Yizhen and Wang, Zhigang and Wang, Dong and Zhao, Bin and Li, Xuelong},
+    title     = {Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {10680-10688}
 }
 ```

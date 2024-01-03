@@ -22,7 +22,7 @@ This repository contains the code for the paper Towards Nonlinear-Motion-Aware a
 
 ## Installation
 - Note 📢: We do not provide checkpoints due to the time schedule in the master branch, but you can find checkpoints and old version code in [commit_e9a9](https://github.com/DelinQu/QRSC/tree/8739072e3c848cbc832d0f30d998e2d41b51e9a9).
-Please follow the instructions below to install the repo and dependencies.
+- Please follow the instructions below to install the repo and dependencies.
 
 ```bash
 git clone https://github.com/DelinQu/QRSC.git

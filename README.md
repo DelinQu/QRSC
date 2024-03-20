@@ -1,4 +1,4 @@
-# Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction (under construction)
+# Towards Nonlinear-Motion-Aware and Occlusion-Robust Rolling Shutter Correction
 
 ### [Paper](https://arxiv.org/pdf/2303.18125.pdf) | [Project Page](https://delinqu.github.io/QRSC) | [Video](https://youtu.be/Or-yvKHUrZ0)
 
